@@ -18,7 +18,6 @@ with app.app_context():
 # Web Routes
 @app.route('/')
 def index():
-    ''' CI test '''
     return render_template('index.html')
 
 @app.route('/contacts')
